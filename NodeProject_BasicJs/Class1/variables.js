@@ -80,6 +80,14 @@
  * enclose the value in single quotes: 
  * let userAge = 22;
  * 
+ * String interpolation is replacing placeholders with values in a string literal.
+
+        The string interpolation in JavaScript is performed by template literals (strings wrapped in backticks `) and ${expression} as a placeholder. For example:
+
+        const number = 42;
+        const message = `The number is ${number}`;
+                message; // => 'The number is 42'
+ * 
  * console.log(`my name is ${userName}, and I am ${userAge} years old`);
  * 
  * let userName1 = 'felipe'; //to store String-value in variable, enclose the value in single quotes: 
