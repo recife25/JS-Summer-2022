@@ -33,4 +33,15 @@ console.log(`Today is my birthday and I am ${myAge} years old`);
 
 
 
+let num2 = 20;
+let res2 = num2++ - num2;
+
+console.log(`res2 ${res2}`);
+console.log(`num2 ${num2}`);
+
+
+
+
+
+
 
