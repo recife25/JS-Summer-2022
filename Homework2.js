@@ -65,11 +65,3 @@ console.log(`\nlastIndesxof_Body ${lastIndexof_Body}`);
 let bodyName = 'bOdY'
 let bodyNameIncludes_bO = bodyName.includes('bOdY');
 console.log(`\nbodyNameIncludes_bO ${bodyNameIncludes_bO}`);
-
-
-
-
-
-
-
-
