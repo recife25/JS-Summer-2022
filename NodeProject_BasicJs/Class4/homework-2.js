@@ -29,6 +29,7 @@ console.log(sentence2);
 //     result1 = 15;
 // else
 //     result1 = 25;
+//iteration for loop
 sentence2 = sentence2 >= 10 ? result1 = 15 : result1 = 25; 
 console.log(`result1  ${result1}`);
 
