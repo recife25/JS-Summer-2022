@@ -25,11 +25,12 @@ const sentence1 = 'Hello dear, how are you doing?';
 let result1 = 0;
 let sentence2 = sentence1.length;
 console.log(sentence2);
-if (sentence2 >= 10)
-    result1 = 15;
-else
-    result1 = 25;
-console.log(`result1 -> ${result1}`);
+// if (sentence2 >= 10)
+//     result1 = 15;
+// else
+//     result1 = 25;
+sentence2 = sentence2 >= 10 ? result1 = 15 : result1 = 25; 
+console.log(`result1  ${result1}`);
 
 //const sentence2 = "HeAlTh wAs EArlIer said To Be the AbILitY of the bOdY funcTiOnInG WElL.";
 /**
