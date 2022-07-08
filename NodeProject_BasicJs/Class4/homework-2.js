@@ -82,11 +82,11 @@ console.log(`Sentence-3.5 : lastChar ${lastChar}`);
 //3.6 word 'Body' is present only once T/F 
 let s3LowerCase = sentence3.toLowerCase();
 let word_Body = 'Body';
-let word_Body_LC = word_Body.toLowerCase();
+let pattern = word_Body.toLowerCase();
 let indexOfBody = s3LowerCase.indexOf();
 let lastindexofBody = s3LowerCase.lastIndexOf();
-indexOfBody === lastindexofBody && indexBody >= 0;
-console.log(`${lastindexofBody} and ${indexBody}`);
+indexOfBody === lastindexofBody && indexOfBody >= 0;
+console.log(`Sentence-3.6 : ${indexOfBody} and ${lastindexofBody}`);
 
 
 
