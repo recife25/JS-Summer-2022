@@ -41,22 +41,23 @@ let first_letterUC = (word.substring(0, 1).toUpperCase());
 let rest_letterLC = (word.substring(1).toLowerCase());
 let concat = (first_letterUC.concat(rest_letterLC));
 
-    const word1 = ('a');
-    let split_word1 = (word1.split(' '));
-    let single_letterUC1 = (word1.substring(0, 1).toUpperCase());
+const word1 = ('a');
+let split_word1 = (word1.split(' '));
+let single_letterUC1 = (word1.substring(0, 1).toUpperCase());
 
-        const word2 = ('great');
-        let split_word2 = (word2.split(' '));
-        let single_letterUC2 = (word2.substring(0, 1).toUpperCase());
-        let rest_letterLC1 = (word2.substring(1).toLowerCase());
-        let concat1 = (single_letterUC2.concat(rest_letterLC1));
+const word2 = ('great');
+let split_word2 = (word2.split(' '));
+let single_letterUC2 = (word2.substring(0, 1).toUpperCase());
+let rest_letterLC1 = (word2.substring(1).toLowerCase());
+let concat1 = (single_letterUC2.concat(rest_letterLC1));
 
-            const word3 = ('day');
-            let split_word3 = (word3.split(' '));
-            let single_letterUC3 = (word3.substring(0, 1).toUpperCase());
-            let rest_letterLC3 = (word3.substring(1).toLowerCase());
-            let concat2 = (single_letterUC3.concat(rest_letterLC3));
-            console.log(`${concat} ${single_letterUC1} ${concat1} ${concat2}`);
+const word3 = ('day');
+let split_word3 = (word3.split(' '));
+let single_letterUC3 = (word3.substring(0, 1).toUpperCase());
+let rest_letterLC3 = (word3.substring(1).toLowerCase());
+let concat2 = (single_letterUC3.concat(rest_letterLC3));
+console.log(`${concat} ${single_letterUC1} ${concat1} ${concat2}`);
+            
             
 
 
