@@ -99,7 +99,18 @@ console.log(planets);
  * if BASKETBALL is NOT present in the array, replace index-2 value with BASKETBALL and print the value which you replaced.
  * 
  */
-
+const sports3 = ['Football', 'Soccer', 'BASKETBALL', 'Baseball', 'Rugby'];
+if (sports3[2].toUpperCase !== 'BASKETBALL' && sports3.includes('BASKETBALL'))
+{
+    console.log('BASKETBALL is mentioned in the sports array');
+}
+else if (sports3[2].toUpperCase === 'BASKETBALL') {
+    console.log('BASKETBALL is present at index-2')
+}
+else {
+    sports3[2].push('BASKETBALL')
+    console.log(sports3)
+}
 
 
 
