@@ -19,17 +19,3 @@ if (yourName.toLowerCase().startsWith('ha')) {
     let shock = 'Bad';
     console.log(shock);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
