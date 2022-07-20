@@ -4,7 +4,8 @@ Felipe J Ruiz (Phil)
 homework-5
 methods, for loops, slice, concat, split
 I will issue my function hw soon/
-/having issues with git version control ??? 
+/having issues with git version control ???
+/troubleshooting - to get link and submit hw5 for review!
 /**
  * Q1:
  * Convert any sentence into Titlecase
