@@ -1,9 +1,10 @@
-// Due date: Mon (July 18) eod
+
 /*
 Felipe J Ruiz (Phil)
 homework-5
 methods, for loops, slice, concat, split
 I will issue my function hw soon/
+/having issues with git version control ??? 
 /**
  * Q1:
  * Convert any sentence into Titlecase
